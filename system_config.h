@@ -2,7 +2,7 @@
  *
  * UART Test Configuration
  *
- * Copyright (C) 2020, HENSOLDT Cyber GmbH
+ * Copyright (C) 2020-2023, HENSOLDT Cyber GmbH
  *
  */
 #pragma once
