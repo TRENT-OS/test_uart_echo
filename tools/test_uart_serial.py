@@ -74,7 +74,7 @@ def run():
 
 #----------------------------------------------------------------------------
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
+    if len(sys.argv) != 3 or "-h" in sys.argv:
         print(f"Usage:\n{sys.argv[0]} DEVICE BYTES")
         print(f"Example:\n{sys.argv[0]} /dev/ttyUSB1 \"1024**2\"")
         sys.exit(-1)
